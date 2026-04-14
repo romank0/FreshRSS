@@ -80,7 +80,7 @@ return array(
 		'filteractions' => array(
 			'_' => 'Автоматичний фільтр',
 			'help' => 'По одному фільтру на рядок. Перегляньте <a href="https://freshrss.github.io/FreshRSS/en/users/10_filter.html#with-the-search-field" target="_blank">документацію операторів</a>.',
-			'view_filter' => 'Preview filters on existing articles (new window)',	// TODO
+			'view_filter' => 'Переглянути фільтри на наявних статтях (нове вікно)',
 		),
 		'http_headers' => 'HTTP-заголовки',
 		'http_headers_help' => 'По заголовку на рядок. Назву й значення відокремлено двокрапкою (наприклад, <kbd><code>Accept: application/atom+xml<br />Authorization: Bearer деякий-токен</code></kbd>).',
@@ -185,8 +185,8 @@ return array(
 			'rss' => 'RSS/Atom (типово)',
 			'xml_xpath' => 'XML + XPath',	// IGNORE
 		),
-		'last-error-date' => 'Last erroneous update <time datetime="%1$s" title="%1$s">%2$s</time>.',	// TODO
-		'last-update' => 'Last successful update <time datetime="%1$s" title="%1$s">%2$s</time>.',	// TODO
+		'last-error-date' => 'Останнє оновлення з помилкою: <time datetime="%1$s" title="%1$s">%2$s</time>.',
+		'last-update' => 'Останнє успішне оновлення: <time datetime="%1$s" title="%1$s">%2$s</time>.',
 		'maintenance' => array(
 			'clear_cache' => 'Очистити кеш',
 			'clear_cache_help' => 'Спорожнити кеш стрічки.',
@@ -213,7 +213,7 @@ return array(
 		'priority' => array(
 			'_' => 'Видимість',
 			'category' => 'Показати в категорії',
-			'feed' => 'Show in its feed',	// TODO
+			'feed' => 'Показати в її стрічці',
 			'hidden' => 'Не показувати',
 			'important' => 'Показати у важливих стрічках',
 			'main_stream' => 'Показати в головному потоці',
@@ -285,7 +285,7 @@ return array(
 			'idle' => 'Неактивні стрічки',
 			'main' => 'Основна статистика',
 			'repartition' => 'Перерозподіл статей',
-			'unread_dates' => 'Unread dates',	// TODO
+			'unread_dates' => 'Дати з непрочитаними',
 		),
 		'subscription_management' => 'Керування підписками',
 		'subscription_tools' => 'Засоби підписки',
